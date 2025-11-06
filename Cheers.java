@@ -13,7 +13,7 @@ public class Cheers {
             String specialLetters = "AEFHILMNORSX";
 
             for (int i = 0; i < name.length(); i++) {
-                String addition = specialLetters.indexOf(name.charAt(i)) != -1 ? "an" : "a";
+                String addition = specialLetters.indexOf(name.charAt(i)) != -1 ? "an" : "a ";
                 System.out.println("Give me " + addition + " " + name.charAt(i) + ": " + name.charAt(i) + "!");
             }
             System.out.println("What does that spell?");
