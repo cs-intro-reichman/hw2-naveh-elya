@@ -5,7 +5,7 @@ public class Collatz {
 		String mode = args[1];
 
 		int current = 1;
-		int steps = 0;
+		int steps = 1;
 		for (int i = 1; i < heightSeed + 1; i++) {
 
 			do {
@@ -24,7 +24,7 @@ public class Collatz {
 			if (mode.equals("v")) {
 				System.out.println("1 " + "(" + steps + ")");
 			}
-			steps = 0;
+			steps = 1;
 			current = i + 1;
 		}
 
