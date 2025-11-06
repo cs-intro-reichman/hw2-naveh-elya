@@ -6,7 +6,7 @@ public class Collatz {
 
 		int current = 1;
 		int steps = 0;
-		for (int i = 1; i < heightSeed; i++) {
+		for (int i = 1; i < heightSeed + 1; i++) {
 
 			do {
 				steps++;
