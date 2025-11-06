@@ -16,6 +16,7 @@ public class Cheers {
                 String addition = specialLetters.indexOf(name.charAt(i)) != -1 ? "an" : "a";
                 System.out.println("Give me " + addition + " " + name.charAt(i) + ": " + name.charAt(i) + "!");
             }
+            System.out.println("What does that spell?");
             for (int i = 0; i < cheers; i++) {
                 System.out.println(name + "!!!");
             }
